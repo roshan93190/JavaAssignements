@@ -9,10 +9,10 @@ package com.masai.question2;
 	public static void main(String[] args) {	
 		Scanner sc=new Scanner(System.in);
 		while(true) {
-			System.out.println("Add book you want");
-			System.out.println("Display book details");
-			System.out.println("Count the number of books");
-		    System.out.println("Exit");
+			System.out.println(" 1 to  Add book you want");
+			System.out.println("2 to Display book details");
+			System.out.println("3 to Count the number of books");
+		    System.out.println("4  to Exit");
 		System.out.println("------------------------------------");
 		
 		int opt=sc.nextInt();
@@ -22,7 +22,7 @@ package com.masai.question2;
 			System.out.println("Enter bookname");
 			String bookName=sc.nextLine();
 			System.out.println("Enter author name");
-			sc.nextLine();
+			sc.next();
 		  String author=sc.nextLine();
 		  sc.next();
 		  Book book=new Book();
